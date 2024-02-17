@@ -12,6 +12,7 @@ body {
     width: 82%;
     max-width: 1320px;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 .section-title {
@@ -19,6 +20,13 @@ body {
     font-family: Inter;
     font-size: 48px;
     text-align: center;
+}
+
+.section-title-2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .section-sub-title {
@@ -34,6 +42,21 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+.section-p2 {
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 22px;
+    margin-bottom: 50px;
+    width: 67%;
+    max-width: 900px;
+}
+
+.txt-center{
+    text-align: center;
+}
+.txt-left{
+    text-align: left;
 }
 
 header {
@@ -103,31 +126,41 @@ header {
     padding-top: 126px;
     padding-left: 126px;
     padding-bottom: 24px;
-    width: 700px;
+    width: 53%;
 }
 
-.welcome-meet-sec button{
+.welcome-meet-sec button {
     margin-top: 50px;
 }
 
 /* portfolio styles */
-.portfolio{
+.portfolio {
     width: 900px;
     margin-top: 120px;
     margin-bottom: 50px;
 }
 
-.portfolio h2,h4,p{
+.portfolio h2,
+h4,
+p {
     text-align: left;
 }
-.portfolio p{
-    color: rgba(7, 2, 17, 0.6);
-    margin-top: 22px;
-    margin-bottom: 50px;
-}
 
-.gift-items{
+.gift-items {
     display: flex;
     gap: 24px
 }
 
+/* subscribe section styles */
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* .subscribe-content{
+    width: 68%;
+    max-width: 900px;
+    text-align: center;
+} */
