@@ -153,7 +153,12 @@ p {
 
 .gift-items {
     display: flex;
-    gap: 24px
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.gift-items div:hover{
+    border: 2px solid #773;
 }
 
 /* subscribe section styles */
