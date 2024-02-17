@@ -53,3 +53,25 @@ header {
     text-align: center;
     padding: 180px 340px;
 }
+
+.holiday-sec {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.holiday-sec h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.holiday-sec h2 {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
