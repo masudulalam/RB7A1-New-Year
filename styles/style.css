@@ -29,6 +29,13 @@ body {
     text-align: center;
 }
 
+.section-p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 header {
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -74,4 +81,31 @@ header {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+}
+
+/* welcome meet sec styles */
+.welcome-meet-sec {
+    background-image: url("../resources/Group 70.png"), url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 600px;
+}
+
+.welcome-meet-sec h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+}
+
+#welcome-txt {
+    padding-top: 126px;
+    padding-left: 126px;
+    padding-bottom: 24px;
+    width: 700px;
+}
+
+.welcome-meet-sec button{
+    margin-top: 50px;
 }
